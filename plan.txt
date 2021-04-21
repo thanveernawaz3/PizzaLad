@@ -1,0 +1,11 @@
+1.Create directory structure
+2.Create NPM project and install all dependencies
+    -Express
+    -ejs express-ejs-layouts
+    -nodemon
+3.Create express server server.js
+4.Home page using Html and css
+    -tailwind css
+5.Create cart page
+    -order cart
+    -empty cart
