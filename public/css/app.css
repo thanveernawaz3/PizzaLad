@@ -36,3 +36,18 @@ section.hero {
   border-color: white;
   color: white;
 }
+
+.btn-primary {
+  background: #FE5F1E;
+}
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+
+.amount {
+  color: #FE5F1E;
+}

@@ -43,3 +43,19 @@ section.hero{
     }
 
 }
+
+.btn-primary{
+    background:$primary;
+
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+section.cart{
+    background:$secondary;
+}
+
+.amount {
+    color:$primary;
+}
