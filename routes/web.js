@@ -11,7 +11,11 @@ function initRoutes(app){
     
     app.get('/register',authController().register)
     
+    app.post('/register',authController().postRegister)
+
     app.get('/cart',cartController().index)
+
+    app.post('/update-cart',cartController().update)
    
 }
 
