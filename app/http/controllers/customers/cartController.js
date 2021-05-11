@@ -17,10 +17,11 @@ function cartController(){
 
                 
 
-
+                
                
             }
             let cart = req.session.cart
+           
 
             if(!cart.items[req.body._id]){
               cart.items[req.body._id]={
